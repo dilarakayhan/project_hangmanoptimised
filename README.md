@@ -3,6 +3,7 @@
 * Refacturing existing code
 * Advanced CSS
   * Grid, nth-child
+* Testing refactured code
 
 ## Requirements
 1. Starting the game by choosing a word
@@ -13,11 +14,11 @@
 1. Win the game
 
 ## Hangman start page
-![hangman](/hangmangame.png)
+![hangman](/images/hangmangame.png)
 
 ## Hangman lose game result
-![hangman_lose](/hangmangame_lost.png)
+![hangman_lose](/images/hangmangame_lost.png)
 
 ## Hangman win game result
-![hangman_win](/hangmangame_win.png)
+![hangman_win](/images/hangmangame_win.png)
 
