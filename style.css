@@ -1,0 +1,70 @@
+* {
+  font-family: "Gochi Hand";
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #fff;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 800px;
+  grid-template-rows: repeat(4, auto);
+  grid-row-gap: 1em;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.wrapper > div {
+  background-color: #ddd;
+  padding: 1em;
+}
+
+.wrapper > div:nth-child(even) {
+  background-color:#fff;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: 1rem;
+}
+
+button { 
+  cursor: pointer;
+  background: 0;
+  border: 0;
+  font-size: 15pt;
+  transition: opacity 200ms ease-in;
+  display: inline-flex;
+  outline: none;
+  transition: opacity 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+#guess-input {
+  width: 200px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  border: solid 2px black;
+  outline: none;
+}
+
+
+.win,
+.lose {
+  display: none;
+}
+
+.win h2 {
+  color: red;
+}
+
+.lose h2 {
+  color: blue;
+}
